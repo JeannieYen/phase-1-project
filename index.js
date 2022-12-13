@@ -44,5 +44,5 @@ img.addEventListener('click', event => {
 });
 
 img.addEventListener('error', () => {
-  img.alt = "Try Again!"
+  img.alt = "Oh no! Try again!"
 });
