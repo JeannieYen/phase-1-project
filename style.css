@@ -1,3 +1,8 @@
+body {
+    background-color:#FFF2DE;
+    ;
+}
+
 img {
     width: 50%;
     aspect-ratio: 3/2;
@@ -7,6 +12,31 @@ img {
     margin-left: auto;
 }
 
-header {
+p {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #1E5585;
+    letter-spacing: 0.01em;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    width: 362px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 28px;
+    height: 24px;
+    fill: #1E5585;
+    display: flex;
+    align-items: center;
 }

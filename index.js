@@ -43,6 +43,6 @@ img.addEventListener('click', event => {
   img.src = `https://dog.ceo/api/breed/${event.value}/images/random`;
 });
 
-img.addEventListener('mouseover', () => {
-  img.alt = 'test'
-})
+img.addEventListener('error', () => {
+  img.alt = "Try Again!"
+});
